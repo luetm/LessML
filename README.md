@@ -224,6 +224,18 @@ Maps are lists, but with key-value pairs as items. Since they’re special in al
 
 The first two makes use of a **reserved word** which would be fixed for maps. Other such words could be `_type` for type information or `_ref` for object references. The last one basically lets the user chose what to name the objects. The problem here is though, that a serializer wouldn't know what to do with that and just always pick `entry` or something. At the moment, my favourite is #2.
 
+### Comments
+Comments can be one line or multi line. When minimizing, comments are purged.
+
+```
+# Single line comment
+
+###
+Sometimes one line is not
+enough.
+###
+```
+
 
 ## Feedback
 Maybe I’ll post this on HN one day. Until then, you can direct any abuse toward [@luetm](https://x.com/luetm) on Twitter, or create an issue.
