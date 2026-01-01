@@ -77,7 +77,7 @@ This makes LessML suitable for:
  - Comments for all versions.
  
  #### Advantages over YAML
- - Whitespace is readable, but small mistakes break the schema. Those mistakes are invisible, because they’re whitespace,  - which leads to sadness.
+ - Whitespace is readable, but not editable. Small mistakes break the schema. Those mistakes are invisible, because they’re whitespace,  - which leads to sadness.
  - Whitespace also makes it not minifiable, which LessML is.
 
  #### Advantages over TOML / Ini
