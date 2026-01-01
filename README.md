@@ -50,7 +50,7 @@ That night I couldn’t sleep (not because of HUML), and in my head I started to
 
 More examples and explanations below.
 
-## Philosophy
+## Why
 ### Goals
 LessML aims to be a markup language that, in order of importance:
  1. Is easy for laypeople to learn and understand, so they can edit it
