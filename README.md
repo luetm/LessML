@@ -254,6 +254,12 @@ type Player = {
 
 Since `name` and `alive` have already been defined, and `inventory` is a list of items, its tag `inventory` can be omitted, because it wouldn’t really add any information. I chose to add this because, in config files, I ran into this situation a lot.
 
+### Escaping
+Attribute values are enclosed in double quotes `"`. Inside an attribute value, only two characters have special meaning: the double quote itself and the backslash. A double quote must be escaped as `\"`, and a backslash must be escaped as `\\`. All other characters are treated as literal and do not require escaping, including angle brackets, equals signs, braces, parentheses, and Unicode characters.
+
+```xml
+<code="Console.WriteLine(\"Hello, <World> \\0!\");">
+```
 
 ### Comments
 Comments can be one line or multi line. When minimizing, comments are purged.
