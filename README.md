@@ -88,7 +88,7 @@ This makes LessML suitable for:
 #### Disadvantages
  - Yes, I am aware of [xkcd #927](https://xkcd.com/927/).
  - It looks like XML, which might lead to confusion.
- - It looks like XML; many programmers will dislike it just because of that.
+ - It looks like XML, many programmers will dislike it just because of that.
  - It’s not as powerful as XML, so it has limited use.
  - Probably not as efficient to parse as JSON.
  - It can’t be minified as much as JSON, especially not JSON5.
